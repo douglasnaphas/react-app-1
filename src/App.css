@@ -23,6 +23,14 @@
   color: #61dafb;
 }
 
+.link-normal {
+  background-color: lightgoldenrodyellow;
+}
+
+.link-hovered {
+  background-color: lightpink;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

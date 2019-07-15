@@ -1,7 +1,8 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import MouseTracker from "./components/MouseTracker";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import MouseTracker from './components/MouseTracker';
+import MyLink from './components/MyLink/MyLink';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </header>
       <div>
         <MouseTracker />
+      </div>
+      <div>
+        <MyLink>Is this here?</MyLink>
       </div>
     </div>
   );
