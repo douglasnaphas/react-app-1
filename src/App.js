@@ -1,8 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MouseTracker from './components/MouseTracker';
-import MyLink from './components/MyLink/MyLink';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import CompWChildren from "./components/CompWChildren/CompWChildren";
+import MouseTracker from "./components/MouseTracker";
+import MyLink from "./components/MyLink/MyLink";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <div>
         <MyLink>Is this here?</MyLink>
       </div>
+      <CompWChildren>Some children</CompWChildren>
     </div>
   );
 }
