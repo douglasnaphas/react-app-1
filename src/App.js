@@ -5,24 +5,11 @@ import CompWChildren from "./components/CompWChildren/CompWChildren";
 import CompWDesProps from "./components/CompWDesProps";
 import MouseTracker from "./components/MouseTracker";
 import MyLink from "./components/MyLink/MyLink";
+import Reservation from "./components/Reservation";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
       <div>
         <MouseTracker />
       </div>
@@ -33,6 +20,9 @@ function App() {
       <CompWDesProps
         task={{ id: "my id", title: "my title", state: "my state" }}
       />
+      <div>
+        <Reservation />
+      </div>
     </div>
   );
 }
